@@ -14,6 +14,6 @@ def list_buckets():
     return render_template('buckets.html', buckets=buckets)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0' , port=5000, debug=True)
 
 # Comando para verlos en consola aws s3 ls 
