@@ -37,7 +37,7 @@ Asegúrate de que la AWS CLI esté configurada en tu sistema con las credenciale
     aws configure
 
 
-##1. Ejecutar la aplicación
+## 1. Ejecutar la aplicación
 Con el entorno virtual activado, ejecuta la aplicación Flask:
 
     Copiar código
